@@ -1,5 +1,5 @@
 CREATE DATABASE "RCPT-Web"
-  WITH OWNER = pi
+  WITH OWNER = postgres
        ENCODING = 'UTF8'
        TABLESPACE = pg_default
        LC_COLLATE = 'C.UTF-8'
