@@ -1,7 +1,7 @@
 CREATE DATABASE "RCPT-Web"
-  WITH OWNER = postgres
+  WITH OWNER = pi
        ENCODING = 'UTF8'
        TABLESPACE = pg_default
-       LC_COLLATE = 'Japanese_Japan.932'
-       LC_CTYPE = 'Japanese_Japan.932'
+       LC_COLLATE = 'C.UTF-8'
+       LC_CTYPE = 'C.UTF-8'
        CONNECTION LIMIT = -1;
