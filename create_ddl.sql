@@ -5,3 +5,5 @@ CREATE DATABASE "RCPT-Web"
        LC_COLLATE = 'ja_JP.utf8'
        LC_CTYPE = 'ja_JP.utf8'
        CONNECTION LIMIT = -1;
+
+ALTER DATABASE "RCPT-Web" SET timezone TO 'Asia/Tokyo';
